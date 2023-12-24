@@ -1,0 +1,104 @@
+
+.App{
+  /* background: url("./ai-image.gif"); */
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  animation: AiBg 4s linear infinite;
+  
+}
+
+@keyframes AiBg {
+  0%{
+    background:url("../../public/one.gif");
+     width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  }
+  
+  100%{
+    background:url("../../public/two.gif");
+
+      /* background: url("./ai-image.gif"); */
+       width: 100vw;
+  height: 100vh;
+  background-size: cover;
+
+  }
+  
+}
+.generated-image-box {
+  text-align: center !important;
+  
+}
+.image_size{
+  width: 16rem;
+  height: 16rem;
+  border-radius: 1rem !important;
+}
+.search_bar{
+  width: 60% !important;
+  margin: .5rem !important;
+  outline: none;
+  border-radius: .5rem;
+  padding: .5rem;
+}
+
+.submit_btn .download_btn{
+margin-top: -.2rem;
+
+}
+.alert_message{
+  background:rgba(243, 47, 47, 0.793);
+  width: 50% !important;
+  
+  animation:  alert 2s linear infinite;
+}
+
+@keyframes alert {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+  
+}
+
+.download_btn{
+  
+}
+@media screen and (max-width: 800px) {
+  .App {
+    /* background-image: url("./ai-image.gif"); */
+    background:url("../../public/two.gif");
+
+    height: 100vh;
+    background-repeat: no-repeat;
+
+  }
+
+  @keyframes Aig {
+  0%{
+        background:url("../../public/one.gif");
+
+     width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  }
+  
+  100%{
+         background:url("../../public/two.gif");
+
+       width: 100vw;
+  height: 100vh;
+  background-size: cover;
+
+  }
+  
+}
+  
+}
